@@ -1,20 +1,122 @@
-ANALISIS KEBUTUHAN SISTEM
+TAHAPAN ANALISIS SISTEM ATTENDX
 
-Judul Proyek:
-Sistem Absensi Online
+====================================================
+1. IDENTIFIKASI MASALAH
+====================================================
 
-Latar Belakang:
-Proses absensi masih dilakukan secara manual sehingga kurang efisien.
+Tahap pertama dilakukan dengan mengidentifikasi permasalahan pada sistem absensi konvensional, seperti:
+- Titip absen mahasiswa
+- Sulit memverifikasi lokasi kehadiran
+- Proses absensi masih manual
+- Rekap absensi memerlukan waktu lama
+- Kurangnya monitoring secara real-time
 
-Tujuan:
-Membuat sistem absensi berbasis web agar proses pencatatan kehadiran lebih mudah.
+====================================================
+2. ANALISIS KEBUTUHAN SISTEM
+====================================================
 
-Kebutuhan Fungsional:
-1. User dapat login
-2. Admin dapat melihat data absensi
-3. Sistem dapat menyimpan data ke database
+Sistem membutuhkan beberapa fitur utama, yaitu:
+- Login multi-role
+- Verifikasi GPS
+- Dashboard mahasiswa
+- Dashboard dosen
+- Dashboard admin
+- Riwayat absensi
+- Monitoring kehadiran
+- Responsive mobile interface
 
-Kebutuhan Non-Fungsional:
-1. Sistem mudah digunakan
-2. Tampilan responsif
-3. Data tersimpan dengan aman
+====================================================
+3. ANALISIS PENGGUNA
+====================================================
+
+Pengguna sistem dibagi menjadi tiga kategori:
+
+1. Mahasiswa
+   - Melakukan absensi
+   - Melihat riwayat kehadiran
+
+2. Dosen
+   - Memvalidasi absensi mahasiswa
+   - Monitoring kehadiran
+
+3. Administrator
+   - Mengelola data sistem
+   - Mengatur jadwal dan mata kuliah
+
+====================================================
+4. ANALISIS PROSES BISNIS
+====================================================
+
+Alur sistem:
+1. Pengguna login
+2. Sistem memverifikasi role pengguna
+3. GPS pengguna dideteksi
+4. Sistem menghitung jarak dari kampus
+5. Jika berada dalam radius maka absensi berhasil
+6. Data absensi ditampilkan pada dashboard
+
+====================================================
+5. ANALISIS TEKNOLOGI
+====================================================
+
+Teknologi yang digunakan:
+- HTML5
+- CSS3
+- JavaScript
+- Tailwind CSS
+- Font Awesome
+
+Browser API:
+- navigator.geolocation
+
+====================================================
+6. ANALISIS DESAIN INTERFACE
+====================================================
+
+Desain sistem dibuat:
+- Responsive
+- Modern
+- Mudah digunakan
+- Mendukung desktop dan mobile
+
+Komponen interface:
+- Sidebar navigation
+- Bottom navigation
+- Modal login
+- Dashboard card
+- GPS status panel
+
+====================================================
+7. ANALISIS KEAMANAN
+====================================================
+
+Analisis keamanan dilakukan pada:
+- Validasi login
+- Pembatasan role pengguna
+- Verifikasi lokasi GPS
+- Pencegahan manipulasi absensi
+
+====================================================
+8. ANALISIS KELEBIHAN DAN KEKURANGAN
+====================================================
+
+Kelebihan:
+- Modern interface
+- GPS verification
+- Responsive design
+- Multi-role system
+
+Kekurangan:
+- Belum menggunakan database
+- Data masih hardcode
+- Belum terhubung backend
+
+====================================================
+9. HASIL ANALISIS
+====================================================
+
+Berdasarkan hasil analisis, sistem AttendX dinilai mampu menjadi solusi absensi digital berbasis GPS yang lebih efektif dibanding metode absensi manual.
+
+====================================================
+END OF FILE
+====================================================
