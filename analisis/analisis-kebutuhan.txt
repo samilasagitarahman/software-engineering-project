@@ -1,0 +1,20 @@
+ANALISIS KEBUTUHAN SISTEM
+
+Judul Proyek:
+Sistem Absensi Online
+
+Latar Belakang:
+Proses absensi masih dilakukan secara manual sehingga kurang efisien.
+
+Tujuan:
+Membuat sistem absensi berbasis web agar proses pencatatan kehadiran lebih mudah.
+
+Kebutuhan Fungsional:
+1. User dapat login
+2. Admin dapat melihat data absensi
+3. Sistem dapat menyimpan data ke database
+
+Kebutuhan Non-Fungsional:
+1. Sistem mudah digunakan
+2. Tampilan responsif
+3. Data tersimpan dengan aman
