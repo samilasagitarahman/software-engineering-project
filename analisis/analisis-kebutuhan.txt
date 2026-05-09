@@ -1,4 +1,4 @@
-TAHAPAN ANALISIS SISTEM ATTENDX
+1.TAHAPAN ANALISIS SISTEM ATTENDX
 
 ====================================================
 1. IDENTIFIKASI MASALAH
@@ -120,3 +120,264 @@ Berdasarkan hasil analisis, sistem AttendX dinilai mampu menjadi solusi absensi 
 ====================================================
 END OF FILE
 ====================================================
+
+
+
+2.TAHAPAN DESAIN SISTEM ATTENDX
+
+====================================================
+1. DESAIN ARSITEKTUR SISTEM
+====================================================
+
+Sistem AttendX dirancang menggunakan arsitektur frontend berbasis web dengan tampilan interaktif dan responsive.
+
+Komponen utama sistem:
+- Landing page
+- Login system
+- Dashboard mahasiswa
+- Dashboard dosen
+- Dashboard admin
+- GPS verification module
+
+====================================================
+2. DESAIN USER INTERFACE (UI)
+====================================================
+
+Desain antarmuka dibuat dengan konsep modern dan minimalis agar mudah digunakan oleh pengguna.
+
+Karakteristik desain:
+- Dominasi warna biru
+- Layout responsive
+- Navigasi sederhana
+- Tampilan dashboard interaktif
+- Menggunakan card layout
+- Menggunakan icon visual
+
+====================================================
+3. DESAIN USER EXPERIENCE (UX)
+====================================================
+
+Desain UX difokuskan pada:
+- Kemudahan navigasi
+- Kecepatan akses fitur
+- Tampilan yang nyaman di mobile
+- Penggunaan tombol yang jelas
+- Interaksi yang sederhana
+
+====================================================
+4. DESAIN HALAMAN SISTEM
+====================================================
+
+1. Landing Page
+   - Informasi sistem
+   - Tombol mulai absensi
+   - Preview GPS kampus
+
+2. Halaman Login
+   - Login multi-role
+   - Input username dan password
+   - Demo account
+
+3. Dashboard Mahasiswa
+   - Status absensi
+   - Riwayat kehadiran
+   - Informasi GPS
+
+4. Dashboard Dosen
+   - Validasi absensi
+   - Data mahasiswa
+
+5. Dashboard Admin
+   - Pengelolaan data
+   - Jadwal dan mata kuliah
+
+====================================================
+5. DESAIN RESPONSIVE
+====================================================
+
+Sistem dirancang agar dapat berjalan pada:
+- Desktop
+- Tablet
+- Smartphone
+
+Implementasi responsive:
+- Sidebar mobile
+- Bottom navigation
+- Flexible grid layout
+- Media query
+
+====================================================
+6. DESAIN NAVIGASI
+====================================================
+
+Navigasi sistem menggunakan:
+- Sidebar navigation untuk desktop
+- Bottom navigation untuk mobile
+- Icon-based menu
+- Active menu indicator
+
+====================================================
+7. DESAIN DATABASE SEDERHANA
+====================================================
+
+Data utama sistem:
+- Data mahasiswa
+- Data dosen
+- Data admin
+- Data absensi
+- Data mata kuliah
+- Data jadwal
+
+====================================================
+8. DESAIN FITUR GPS
+====================================================
+
+Fitur GPS dirancang untuk:
+- Mengambil lokasi pengguna
+- Mengukur jarak dari kampus
+- Menentukan validasi kehadiran
+
+Metode:
+- Geolocation API
+- Haversine Formula
+- Geofence radius
+
+====================================================
+9. DESAIN KEAMANAN
+====================================================
+
+Desain keamanan meliputi:
+- Validasi login
+- Pembatasan akses role
+- Validasi lokasi GPS
+- Session pengguna
+
+====================================================
+10. HASIL DESAIN SISTEM
+====================================================
+
+Hasil desain sistem AttendX menghasilkan aplikasi absensi berbasis GPS dengan tampilan modern, responsive, dan mendukung multi-user untuk mahasiswa, dosen, dan administrator.
+
+====================================================
+END OF FILE
+====================================================
+
+
+3.TAHAPAN IMPLEMENTASI SISTEM ATTENDX
+
+====================================================
+1. IMPLEMENTASI MENGGUNAKAN VISUAL STUDIO CODE
+====================================================
+
+Proses implementasi sistem AttendX dilakukan menggunakan aplikasi Visual Studio Code sebagai code editor utama.
+
+Visual Studio Code digunakan untuk:
+- Menulis kode HTML
+- Menulis kode CSS
+- Menulis kode JavaScript
+- Mengatur struktur halaman web
+- Melakukan debugging dan pengujian tampilan
+
+====================================================
+2. IMPLEMENTASI FILE HTML
+====================================================
+
+Sistem disimpan dalam format file .html.
+
+Contoh:
+index.html
+
+File HTML digunakan sebagai:
+- Struktur utama halaman web
+- Tempat integrasi CSS dan JavaScript
+- Tampilan antarmuka sistem
+
+====================================================
+3. IMPLEMENTASI TAMPILAN WEB
+====================================================
+
+Implementasi tampilan dilakukan menggunakan:
+- HTML5
+- CSS3
+- Tailwind CSS
+
+Tampilan yang dibuat:
+- Landing page
+- Login modal
+- Dashboard mahasiswa
+- Dashboard dosen
+- Dashboard admin
+
+====================================================
+4. IMPLEMENTASI JAVASCRIPT
+====================================================
+
+JavaScript digunakan untuk:
+- Login system
+- Validasi role pengguna
+- Navigasi halaman
+- GPS detection
+- Riwayat absensi
+- Interaksi dashboard
+
+====================================================
+5. IMPLEMENTASI GPS
+====================================================
+
+Implementasi GPS menggunakan:
+navigator.geolocation
+
+Fungsi GPS:
+- Mengambil lokasi pengguna
+- Menghitung jarak pengguna dari kampus
+- Menentukan validasi absensi
+
+====================================================
+6. IMPLEMENTASI RESPONSIVE DESIGN
+====================================================
+
+Sistem dirancang responsive agar dapat digunakan pada:
+- Desktop
+- Tablet
+- Smartphone
+
+Implementasi responsive menggunakan:
+- Flexbox
+- Grid layout
+- Media query
+
+====================================================
+7. IMPLEMENTASI DASHBOARD
+====================================================
+
+Dashboard mahasiswa:
+- Status absensi
+- Riwayat kehadiran
+- Informasi GPS
+
+Dashboard dosen:
+- Monitoring kehadiran mahasiswa
+
+Dashboard admin:
+- Pengelolaan data sistem
+
+====================================================
+8. IMPLEMENTASI PENGUJIAN
+====================================================
+
+Pengujian dilakukan menggunakan:
+- Browser Google Chrome
+- Mode inspect mobile
+- Pengujian tampilan responsive
+- Pengujian GPS browser
+
+====================================================
+9. HASIL IMPLEMENTASI
+====================================================
+
+Hasil implementasi menghasilkan sistem absensi berbasis GPS berbasis web yang modern, responsive, dan dapat dijalankan menggunakan browser melalui file HTML.
+
+====================================================
+END OF FILE
+====================================================
+
